@@ -4,7 +4,7 @@ An Electron App for Monster Hunter Rise monster data.
 
 ### Release
 
-[Release V1.0.0](https://github.com/Shimrockx/mhrise-monster-data-desktop/releases/download/v1.0.0/MHRise.Monster.Data-win32-x64.rar) 
+[- Download V1.0.0](https://github.com/Shimrockx/mhrise-monster-data-desktop/releases/download/v1.0.0/MHRise.Monster.Data-win32-x64.rar) 
 
 [All Releases](https://github.com/Shimrockx/mhrise-monster-data-desktop/releases)
 

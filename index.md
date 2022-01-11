@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Monster Hunter Rise - Monster Data
 
-You can use the [editor on GitHub](https://github.com/Shimrockx/mhrise-monster-data-desktop/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+An Electron App for Monster Hunter Rise monster data.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Release
 
-### Markdown
+[Release V1.0.0](https://github.com/Shimrockx/mhrise-monster-data-desktop/releases/download/v1.0.0/MHRise.Monster.Data-win32-x64.rar) 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[All Releases](https://github.com/Shimrockx/mhrise-monster-data-desktop/releases)
 
-```markdown
-Syntax highlighted code block
+## Installation
 
-# Header 1
-## Header 2
-### Header 3
+Use a package manager of your choice (npm, yarn, etc.) in order to install all dependencies
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+yarn
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Usage
 
-### Jekyll Themes
+Just run `start` script.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Shimrockx/mhrise-monster-data-desktop/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```bash
+yarn start
+```
 
-### Support or Contact
+## Packaging
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+To generate the project package based on the OS you're running on, just run:
+
+```bash
+yarn package
+```
+
+## Contributing
+
+Pull requests are always welcome 😃.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

@@ -60,7 +60,7 @@ class MHDatabase {
     for (let i = 0; i < this.largeMonstersName.length; i++) {
       let largeMonster: LargeMonster = {
         id: i,
-        name: this.largeMonstersName[i].replace('_', ' '),
+        name: this.largeMonstersName[i].replace(/\_/g, ' '),
         path_hzv: `https://raw.githubusercontent.com/RoboMechE/MHRise-Database/main/monster/${this.largeMonstersName[i]}_HZV.png`,
         zone_chart: `https://raw.githubusercontent.com/RoboMechE/MHRise-Database/main/monster/assets/zone_charts/${this.largeMonstersName[i]}.png`,
         icon: `https://raw.githubusercontent.com/RoboMechE/MHRise-Database/main/monster/assets/icons/${this.largeMonstersName[i]}_Icon.png`,

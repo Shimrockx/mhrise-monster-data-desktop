@@ -33,6 +33,7 @@ export function Search() {
 
   function reset() {
     setResults([])
+    setSelectedLargeMonster(undefined)
   }
 
   return (

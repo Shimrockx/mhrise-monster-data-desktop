@@ -29,6 +29,14 @@ export const api = {
     return ipcRenderer.invoke('getOpacity')
   },
 
+  reduce: (): any => {
+    ipcRenderer.send('reduce')
+  },
+
+  expand: (): any => {
+    ipcRenderer.send('expand')
+  },
+
   close: () => {
     ipcRenderer.send('appClose', '')
   },

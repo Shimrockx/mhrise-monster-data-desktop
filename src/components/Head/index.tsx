@@ -13,11 +13,25 @@ import {
   CloseIcon,
   SettingsButton,
   SettingsIcon,
+  ExpandButton,
+  ExpandIcon,
 } from './styles'
 
 export function Head() {
+  const [reduced, setReduced] = React.useState<boolean>(false)
+
   function onClickClose() {
     window.Main.close()
+  }
+
+  function onClickExpand() {
+    if (!reduced) {
+      setReduced(true)
+      window.Main.reduce()
+    } else {
+      setReduced(false)
+      window.Main.expand()
+    }
   }
 
   return (
@@ -29,9 +43,14 @@ export function Head() {
           </SettingsIcon>
         </SettingsButton>
       </Link>
-      <TitleContent>
+      {/*       <TitleContent>
         <Title>MH Rise Monster Data</Title>
-      </TitleContent>
+      </TitleContent> */}
+      <ExpandButton onClick={onClickExpand}>
+        <ExpandIcon>
+          <FontAwesomeIcon icon="expand" />
+        </ExpandIcon>
+      </ExpandButton>
       <CloseButton onClick={onClickClose}>
         <CloseIcon>
           <FontAwesomeIcon icon="times" />

@@ -49,6 +49,25 @@ export const Title = styled.div`
   margin-top: 11px;
 `
 
+export const ExpandButton = styled.div`
+  -webkit-app-region: no-drag;
+  position: absolute;
+  bottom: 2px;
+  right: 50px;
+  width: 4em;
+  height: 48px;
+  cursor: pointer;
+`
+
+export const ExpandIcon = styled.div`
+  color: #666;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  margin-top: -0.5em;
+  font-size: 20px;
+`
+
 export const CloseButton = styled.div`
   -webkit-app-region: no-drag;
   position: absolute;

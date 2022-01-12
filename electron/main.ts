@@ -65,6 +65,20 @@ function createWindow() {
   })
 }
 
+function reduce() {
+  mainWindow?.setPosition(0, 0, true)
+  mainWindow?.setSize(200, 50)
+}
+
+function expand() {
+  mainWindow?.setPosition(
+    store.get('x') == null ? 0 : Number(store.get('x')),
+    store.get('y') == null ? 0 : Number(store.get('y')),
+    true
+  )
+  mainWindow?.setSize(1024, 768)
+}
+
 async function registerListeners() {
   /**
    * This comes from bridge integration, check bridge.ts
@@ -88,6 +102,14 @@ async function registerListeners() {
 
   ipcMain.handle('getOpacity', _ => {
     return mainWindow?.getOpacity()
+  })
+
+  ipcMain.on('reduce', (_, message) => {
+    reduce()
+  })
+
+  ipcMain.on('expand', (_, message) => {
+    expand()
   })
 
   ipcMain.on('appClose', (_, message) => {

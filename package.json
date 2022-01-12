@@ -1,7 +1,7 @@
 {
   "name": "mhrise-monster-data-desktop",
   "author": "Shimrock <shimrock@protonmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Electron App for Monster Hunter Rise monster data.",
   "main": "./.webpack/main/index.js",
   "scripts": {

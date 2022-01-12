@@ -18,6 +18,8 @@ Expand or reduce the window, or change the opacity and window size to match your
 
 Pull requests are always welcome 😃.
 
+Credits to RoboMechE for his [MHRise-Database](https://github.com/RoboMechE/MHRise-Database)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

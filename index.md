@@ -2,7 +2,7 @@
 
 An Electron App for Monster Hunter Rise monster data.
 
-**Download latest release [here](https://github.com/Shimrockx/APM-Meter/releases/latest)**
+**Download latest release [here](https://github.com/Shimrockx/mhrise-monster-data-desktop/releases/latest)**
 
 ## Usage
 

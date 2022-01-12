@@ -2,35 +2,17 @@
 
 An Electron App for Monster Hunter Rise monster data.
 
-### Release
-
-[- Download V1.0.0](https://github.com/Shimrockx/mhrise-monster-data-desktop/releases/download/v1.0.0/MHRise.Monster.Data-win32-x64.rar) 
-
-[All Releases](https://github.com/Shimrockx/mhrise-monster-data-desktop/releases)
-
-## Installation
-
-Use a package manager of your choice (npm, yarn, etc.) in order to install all dependencies
-
-```bash
-yarn
-```
+**Download latest release [here](https://github.com/Shimrockx/APM-Meter/releases/latest)**
 
 ## Usage
 
-Just run `start` script.
+Just execute the exe file.
 
-```bash
-yarn start
-```
+Tap a monster name and click on it.
 
-## Packaging
+Expand or reduce the window, or change the opacity and window size to match your preferences.
 
-To generate the project package based on the OS you're running on, just run:
-
-```bash
-yarn package
-```
+![alt tag](https://raw.githubusercontent.com/Shimrockx/mhrise-monster-data-desktop/gh-pages/docs/CAPTURE.gif)
 
 ## Contributing
 

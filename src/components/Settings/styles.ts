@@ -115,3 +115,8 @@ export const Footer = styled.footer`
   padding-top: 26px;
   padding-bottom: 26px;
 `
+
+export const Href = styled.a`
+  -webkit-app-region: no-drag;
+  color: #fff;
+`

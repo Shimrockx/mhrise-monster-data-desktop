@@ -20,6 +20,7 @@ import {
   SettingSection,
   SettingTitle,
   SliderContent,
+  Href
 } from './styles'
 import { Slider } from '../Slider'
 
@@ -196,7 +197,8 @@ export function Settings() {
             Copyright © 2006 - 2021 <br />
             CAPCOM CO., LTD. All Rights Reserved.
           </p>
-          <p>Copyright © 2021 - 2021 Shimrock. All Rights Reserved.</p>
+          <p>MIT © 2021 Shimrock.</p>
+          <p>Credits to RoboMechE for his <Href href='https://github.com/RoboMechE/MHRise-Database' target='_blank'>MHRise-Database</Href></p>
         </div>
       </Footer>
     </Container>

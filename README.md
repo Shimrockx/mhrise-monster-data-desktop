@@ -30,6 +30,8 @@ yarn package
 
 Pull requests are always welcome 😃.
 
+Credits to RoboMechE for his [MHRise-Database](https://github.com/RoboMechE/MHRise-Database)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
